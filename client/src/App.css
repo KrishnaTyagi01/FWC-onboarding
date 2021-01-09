@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tableHead th,
+tr,
+thead {
+  position: sticky;
+  z-index: 10;
+
+  top: 0;
+  background-color: white;
+}
+.table tbody {
+  height: 100px;
+}
+@media only screen and (max-width: 1500px) {
+  table {
+    width: 80vw;
+  }
+  .tableHead th,
+  tr,
+  thead {
+    font-size: 10px;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
+
+.pagination-button {
+  border: none;
+  /* background-color: rgb(52, 52, 184); */
+  background: #3f46cc;
+  font-size: 10px;
+  color: white;
+  /* padding: 0 10px; */
+  margin: 0 5px;
+  border-radius: 5px;
+  height: 22px;
+  margin-top: 8px;
+}
+.pagination span {
+  margin: 0 5px;
+  font-size: 16px;
+}
+.pagination input {
+  border-radius: 8px;
+  margin: 0 100px 0 0px;
+  font-size: 16px;
+  width: 20px;
+}
+.pagination span > span {
+  font-weight: 700;
+}
+@media only screen and (max-width: 1500px) {
+  .table-employees {
+    height: 350px;
+  }
+  .Table-2 {
+    height: 300px;
+  }
+}
